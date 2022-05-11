@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(247, 231, 241);
+}
+
 .topnav {
   overflow: hidden;
   background-color: rgb(250, 243, 243);
@@ -67,116 +71,218 @@ h1 {
   padding-top: 155px;
 }
 
-.round {
-  padding: 10px;
-  border-radius: 50%;
+.button {
+  align-items: center;
+  width: 20%;
+  height: 25%;
 }
 
-.round a {
-  text-align: center;
-  font-size: 45px;
-  padding: 15px;
+h2 {
+  font-size: 30px;
 }
 
-.pil-ner {
-  margin-left: 49.5%;
-  top: 0px;
+.arrow {
+  width: 30px;
 }
 
 h3 {
+  height: 100px;
   text-align: center;
   font-size: 40px;
+  background-color: thistle;
+  margin: 5%;
 }
 
 .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.footer {
+  text-align: center;
+}
+
+.flex-item {
+  height: 40%;
+  width: 29.25%;
+  margin: 2%;
+  background-color: rgb(238, 202, 241);
+}
+
+.bild-box {
+  height: 80%;
+  width: 90%;
+  overflow: hidden;
+  margin: 5%;
+}
+
+.text-box {
+  padding: 1%;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  text-align: left;
+  font-size: 30px;
+}
+
+.text-box2 {
+  padding: 1%;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  text-align: left;
+  font-size: 20px;
+}
+
+.bild-box :hover {
+  image: url("images/hoodies.png");
+}
+
+.shoppingbag {
+  width: 16px;
+}
+
+.flex-container2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  font-size: 50px;
+  text-align: center;
+}
+
+.flex-item2 {
+  height: 45px;
+  width: 44%;
+  margin: 3%;
+
+  float: left;
+  padding: 3%;
+}
+
+.text-box3 {
+  padding: 1%;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+  font-size: 30px;
+}
+
+.text-box4 {
+  padding: 1%;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+  font-size: 20px;
+}
+
+.hover-vit :hover {
+  color: rgb(7, 0, 0);
+  background-color: rgb(253, 252, 252);
+}
+
+.hover-svart :hover {
+  color: white;
+  background-color: black;
+}
+.hover-gra :hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(109, 104, 104);
+}
+.hover-rod :hover {
+  color: rgb(12, 8, 8);
+  background-color: rgb(245, 9, 9);
+}
+.hover-rosa :hover {
+  color: rgb(12, 10, 10);
+  background-color: rgb(248, 8, 188);
+}
+.hover-gron :hover {
+  color: rgb(5, 4, 4);
+  background-color: rgb(27, 231, 37);
+}
+.hover-bla :hover {
+  color: rgb(14, 11, 11);
+  background-color: rgb(79, 120, 207);
+}
+.hover-gul :hover {
+  color: rgb(7, 5, 5);
+  background-color: rgb(212, 233, 23);
+}
+
+.flex-container3 {
   display: flex;
   flex-direction: row;
   font-size: 30px;
   text-align: center;
 }
 
-.flex-item-left {
-  background-image: url("images/hoodies.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 500px;
-  padding: 10px;
-  flex: 33%;
-  margin: 10px;
+.flex-item3 {
+  height: 45px;
+  width: 44%;
+  margin: 3%;
+
+  float: left;
+  padding: 3%;
 }
 
-.flex-item-middle {
-  background-image: url("images/tshirt.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 500px;
-  padding: 10px;
-  flex: 33%;
-  margin: 10px;
+.text-box5 {
+  padding: 1%;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+  font-size: 30px;
 }
 
-.flex-item-right {
-  background-image: url("images/linne.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 500px;
-  padding: 10px;
-  flex: 33%;
-  margin: 10px;
+.text-box6 {
+  padding: 1%;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+  font-size: 20px;
+}
+
+.flex-container4 {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item4 {
+  height: 45px;
+  width: 44%;
+  margin: 3%;
+  float: left;
+  padding: 3%;
 }
 
 @media (max-width: 800px) {
   .flex-container {
     flex-direction: column;
-    height: 1500px;
   }
-}
 
-.flex-container2 {
-  display: flex;
-  flex-direction: row;
-  font-size: 30px;
-  text-align: center;
-}
-
-.flex-item-top-left {
-  height: 50px;
-  padding: 10px;
-  flex: 25%;
-  margin: 10px;
-}
-
-.flex-item-top-left-middle {
-  height: 50px;
-  padding: 10px;
-  flex: 25%;
-  margin: 10px;
-}
-
-.flex-item-top-right-middle {
-  height: 50px;
-  padding: 10px;
-  flex: 25%;
-  margin: 10px;
-}
-
-.flex-item-top-right {
-  height: 50px;
-  padding: 10px;
-  flex: 25%;
-  margin: 10px;
+  .flex-item {
+    width: 100%;
+  }
 }
 
 @media (max-width: 800px) {
   .flex-container2 {
     flex-direction: column;
-    height: 100px;
   }
 }
 
-.footer {
-  text-align: center;
+@media (max-width: 800px) {
+  .flex-container4 {
+    flex-direction: column;
+  }
+
+  .flex-item {
+    width: 100%;
+  }
 }
