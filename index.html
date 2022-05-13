@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,13 +14,16 @@
   </head>
   <body>
     <div class="topnav" id="myTopnav">
-      <a href="#home" class="active">Startsida</a>
-      <a href="#news">Styla tröja</a>
-      <a href="#contact">Våra favoriter</a>
+      <a href="index.html" class="active">Startsida</a>
+      <a href="#stylatröja">Styla tröja</a>
+      <a href="favoriter.html">Våra favoriter</a>
       <a href="#about">Om oss</a>
       <a href="bag" class="bag"
         ><img class="shoppingbag" src="images/shoppingbag.png"
       /></a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
 
     <div class="header">
@@ -34,106 +37,174 @@
       <img class="arrow" src="images/arrow down.png" />
     </button>
 
-    <h3>Välj Tröja</h3>
+    <h3>Steg. 1 Välj Tröja</h3>
 
-    <div class="flex-container">
+    <div class="flex-container" id="#stylatröja">
       <div class="flex-item">
         <img src="images/hoodies.png" class="bild-box" />
-        <div class="text-box">Basic Hoodie</div>
-        <div class="text-box2">Lägg till</div>
+        <a href="" class="text-box">Basic Hoodie</a>
+        <button onclick="" class="button2">
+          Välj <i class="fa fa-cart-plus"></i>
+        </button>
       </div>
       <div class="flex-item">
         <img src="images/tshirt.png" class="bild-box" />
-        <div class="text-box">Basic T-Shirt</div>
-        <div class="text-box2">Lägg till</div>
+        <a href="" class="text-box">Basic T-Shirt</a>
+        <button onclick="" class="button2">
+          Välj <i class="fa fa-cart-plus"></i>
+        </button>
       </div>
       <div class="flex-item">
         <img src="images/linne.png" class="bild-box" />
-        <div class="text-box">Basic Linne</div>
-        <div class="text-box2">Lägg till</div>
+        <a href="" class="text-box">Basic Linne</a>
+        <button onclick="" class="button2">
+          Välj <i class="fa fa-cart-plus"></i>
+        </button>
       </div>
     </div>
 
-    <h3>Välj Färg</h3>
+    <h3>Steg. 2 Välj Färg</h3>
 
     <div class="flex-container2">
       <div class="flex-item2 hover-vit">
         <div class="text-box3">
-          Vit
-          <div class="text-box4">
-            lägg till
-            <i class="fa-solid fa-cart-plus"></i>
-          </div>
+          <button onclick="" class="button3">
+            Välj Vit Färg <i class="fa fa-cart-plus"></i>
+          </button>
         </div>
       </div>
       <div class="flex-item2 hover-svart">
         <div class="text-box3">
-          Svart
-          <div class="text-box4">lägg till</div>
+          <button onclick="" class="button3">
+            Välj Svart Färg <i class="fa fa-cart-plus"></i>
+          </button>
         </div>
       </div>
       <div class="flex-item2 hover-gra">
         <div class="text-box3">
-          Grå
-          <div class="text-box4">lägg till</div>
+          <button onclick="" class="button3">
+            Välj Grå Färg <i class="fa fa-cart-plus"></i>
+          </button>
         </div>
       </div>
       <div class="flex-item2 hover-rod">
         <div class="text-box3">
-          Röd
-          <div class="text-box4">lägg till</div>
+          <button onclick="" class="button3">
+            Välj Röd Färg <i class="fa fa-cart-plus"></i>
+          </button>
         </div>
       </div>
       <div class="flex-item2 hover-rosa">
         <div class="text-box3">
-          Rosa
-          <div class="text-box4">lägg till</div>
+          <button onclick="" class="button3">
+            Välj Rosa Färg <i class="fa fa-cart-plus"></i>
+          </button>
         </div>
       </div>
       <div class="flex-item2 hover-gron">
         <div class="text-box3">
-          Grön
-          <div class="text-box4">lägg till</div>
+          <button onclick="" class="button3">
+            Välj Grön Färg <i class="fa fa-cart-plus"></i>
+          </button>
         </div>
       </div>
       <div class="flex-item2 hover-bla">
         <div class="text-box3">
-          Blå
-          <div class="text-box4">lägg till</div>
+          <button onclick="" class="button3">
+            Välj Blå Färg <i class="fa fa-cart-plus"></i>
+          </button>
         </div>
       </div>
-      <div class="flex-item2 hover-gul">
+      <div class="flex-item2">
         <div class="text-box3">
-          Gul
-          <div class="text-box4">lägg till</div>
+          <button onclick="" class="button3 hover-gul">
+            Välj Gul Färg <i class="fa fa-cart-plus"></i>
+          </button>
         </div>
       </div>
     </div>
 
-    <h3>Välj Storlek</h3>
+    <h3>Steg. 3 Välj Storlek</h3>
 
     <div class="flex-container3">
       <div class="flex-item3">
-        <div class="text-box5">XXS</div>
+        <button onclick="" class="button3 hover-gul">
+          Välj Storlek XXS <i class="fa fa-cart-plus"></i>
+        </button>
       </div>
       <div class="flex-item3">
-        <div class="text-box5">XS</div>
+        <button onclick="" class="button3 hover-gul">
+          Välj Storlek XS <i class="fa fa-cart-plus"></i>
+        </button>
       </div>
       <div class="flex-item3">
-        <div class="text-box5">S</div>
+        <button onclick="" class="button3 hover-gul">
+          Välj Storlek S <i class="fa fa-cart-plus"></i>
+        </button>
       </div>
       <div class="flex-item3">
-        <div class="text-box5">M</div>
+        <button onclick="" class="button3 hover-gul">
+          Välj Storlek M <i class="fa fa-cart-plus"></i>
+        </button>
       </div>
       <div class="flex-item3">
-        <div class="text-box5">L</div>
+        <button onclick="" class="button3 hover-gul">
+          Välj Storlek L <i class="fa fa-cart-plus"></i>
+        </button>
       </div>
       <div class="flex-item3">
-        <div class="text-box5">XL</div>
+        <button onclick="" class="button3 hover-gul">
+          Välj Storlek XL <i class="fa fa-cart-plus"></i>
+        </button>
       </div>
       <div class="flex-item3">
-        <div class="text-box5">XXL</div>
+        <button onclick="" class="button3 hover-gul">
+          Välj Storlek XXL <i class="fa fa-cart-plus"></i>
+        </button>
       </div>
     </div>
   </body>
+
+  <h3>Steg. 4 Välj Tryck</h3>
+
+  <footer>
+    <h4 class="omoss">Om oss</h4>
+    <div class="flex-container5">
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2034.97701217949!2d18.06025091551281!3d59.333337617743986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9d5dfdbb8c83%3A0x1f4a6cdda8e61cc6!2sDrottninggatan%2060%2C%20111%2021%20Stockholm!5e0!3m2!1ssv!2sse!4v1652274331105!5m2!1ssv!2sse"
+          width="350"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <div class="info">
+        <ul>
+          <li><i class="fas fa-location-dot"></i> - Drottninggatan 60</li>
+          <li><i class="fa fa-envelope"></i> - styla.klader@gmail.com</li>
+
+          <li><i class="fa fa-phone"></i> - 070 004 36 36</li>
+
+          <li><i class="fab fa-instagram"></i> - styladinaklader</li>
+
+          <li><i class="fab fa-tiktok"></i> - styladinaklader</li>
+        </ul>
+      </div>
+      <form action="/action_page.php">
+        <fieldset>
+          <legend>Problem:</legend>
+          <label for="fname">Namn:</label><br />
+          <input type="text" id="fname" name="fname" /><br />
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" /><br />
+          <label for="problem">Vad är problemet:</label><br />
+          <input type="text" id="problem" name="problem" value="" /><br /><br />
+          <input type="submit" value="Submit" />
+        </fieldset>
+      </form>
+    </div>
+  </footer>
 </html>
