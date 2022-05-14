@@ -38,23 +38,49 @@ body {
   box-sizing: border-box;
 }
 
-.header {
-  background-image: url("images/bakgrundpastell.jpg");
+#grad1 {
   height: 400px;
-}
-h1 {
-  font-size: 50px;
-  text-align: center;
-  padding-top: 155px;
+  background-color: #cccccc;
+  background-image: linear-gradient(
+    thistle,
+    rgb(247, 231, 241),
+    rgb(250, 243, 243),
+    rgb(247, 231, 241),
+    thistle
+  );
 }
 
-.button {
+h1 {
+  font-size: 60px;
+  text-align: center;
+  padding-top: 155px;
+  font-family: "Dr Sugiyama", cursive;
+}
+
+.logo {
   align-items: center;
-  width: 20%;
-  height: 25%;
+}
+
+.welcome {
+  width: 100%;
+  text-align: center;
+  font-family: "Oleo Script Swash Caps", cursive;
+  background-color: thistle;
 }
 
 h2 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 35px;
+}
+
+h5 {
   font-size: 30px;
 }
 
@@ -190,7 +216,7 @@ h3 {
   color: rgb(14, 11, 11);
   background-color: rgb(124, 152, 212);
 }
-.hover-gul :hover {
+button hover-gul {
   color: rgb(7, 5, 5);
   background-color: rgb(228, 240, 124);
 }
@@ -311,6 +337,12 @@ label {
 
 @media (max-width: 800px) {
   .flex-container2 {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 800px) {
+  .flex-container3 {
     flex-direction: column;
   }
 }
