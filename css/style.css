@@ -195,11 +195,10 @@ h3 {
 
 .flex-item2 {
   height: 45px;
-  width: 44%;
-  margin: 3%;
-
+  width: 48%;
+  margin: 1%;
   float: left;
-  padding: 3%;
+  padding: 1%;
 }
 
 .text-box3 {
@@ -254,7 +253,7 @@ button hover-gul {
   background-color: rgb(228, 240, 124);
 }
 
-.flex-container2 {
+.flex-container3 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -263,12 +262,11 @@ button hover-gul {
 }
 
 .flex-item3 {
-  height: 45px;
-  width: 44%;
-  margin: 3%;
-
+  height: 40px;
+  width: 48%;
+  margin: 1%;
   float: left;
-  padding: 3%;
+  padding: 1%;
 }
 
 .text-box5 {
