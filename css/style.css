@@ -2,6 +2,10 @@ body {
   background-color: rgb(247, 231, 241);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .topnav {
   overflow: hidden;
   background-color: rgb(250, 243, 243);
@@ -9,6 +13,7 @@ body {
   position: -webkit-sticky;
   width: 100%;
   top: 0;
+  z-index: 2;
 }
 
 .topnav a {
@@ -50,6 +55,10 @@ body {
   );
 }
 
+.shoppingbag {
+  width: 16px;
+}
+
 h1 {
   font-size: 60px;
   text-align: center;
@@ -62,10 +71,10 @@ section {
 }
 
 .logo {
-  align-items: center;
+  margin-left: 42%;
 }
 
-.welcome {
+.intro {
   width: 100%;
   text-align: center;
   font-family: "Oleo Script Swash Caps", cursive;
@@ -80,16 +89,18 @@ p {
   font-size: 30px;
 }
 
+ol {
+  margin-left: 45%;
+  text-align: left;
+  font-size: 22px;
+}
+
 h4 {
   font-size: 35px;
 }
 
-h5 {
-  font-size: 30px;
-}
-
-.arrow {
-  width: 30px;
+a {
+  text-decoration: none;
 }
 
 h3 {
@@ -99,6 +110,7 @@ h3 {
   height: 55px;
   background-color: thistle;
   font-family: "Zen Loop", cursive;
+  margin-top: 10%;
 }
 
 .flex-container {
@@ -107,15 +119,12 @@ h3 {
   flex-direction: row;
 }
 
-.footer {
-  text-align: center;
-}
-
 .flex-item {
   height: 40%;
   width: 29.25%;
   margin: 2%;
   background-color: thistle;
+  z-index: 1;
 }
 
 .bild-box {
@@ -172,22 +181,8 @@ h3 {
   height: 40px;
 }
 
-.text-box2 {
-  padding: 1%;
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-  text-align: left;
-  font-size: 20px;
-  float: right;
-}
-
 .bild-box :hover {
   image: url("images/hoodies.png");
-}
-
-.shoppingbag {
-  width: 16px;
 }
 
 .flex-container2 {
@@ -200,62 +195,114 @@ h3 {
 
 .flex-item2 {
   height: 45px;
-  width: 48%;
+  width: 31.25%;
   margin: 1%;
   float: left;
-  padding: 1%;
+  padding: 3%;
 }
 
-.text-box3 {
+.text-box2 {
   padding: 1%;
   width: 100%;
   height: auto;
   overflow: hidden;
   text-align: center;
   font-size: 30px;
+  float: left;
+  text-decoration: none;
 }
 
-.text-box4 {
-  padding: 1%;
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-  text-align: center;
-  font-size: 20px;
+.vit {
+  width: 42%;
+  height: 70px;
+  background-color: rgb(241, 241, 238);
+  border-radius: 20%;
+  box-shadow: 0 5px #999;
+}
+.svart {
+  width: 42%;
+  height: 70px;
+  background-color: rgb(7, 7, 6);
+
+  border-radius: 20%;
+  box-shadow: 0 5px #999;
+}
+.gra {
+  width: 42%;
+  height: 70px;
+  background-color: rgb(117, 117, 112);
+
+  border-radius: 20%;
+  box-shadow: 0 5px #999;
+}
+.rod {
+  width: 42%;
+  height: 70px;
+  background-color: rgb(235, 69, 47);
+  border-radius: 20%;
+  box-shadow: 0 5px #999;
+}
+.rosa {
+  width: 42%;
+  height: 70px;
+  background-color: rgb(241, 110, 191);
+  border-radius: 20%;
+  box-shadow: 0 5px #999;
+}
+.gron {
+  width: 42%;
+  height: 70px;
+  background-color: rgb(149, 229, 153);
+  border-radius: 20%;
+  box-shadow: 0 5px #999;
+}
+.bla {
+  width: 42%;
+  height: 70px;
+  background-color: rgb(149, 206, 229);
+  border-radius: 20%;
+  box-shadow: 0 5px #999;
 }
 
-.hover-vit :hover {
-  color: rgb(7, 0, 0);
-  background-color: rgb(253, 252, 252);
+.gul {
+  width: 42%;
+  height: 70px;
+  background-color: rgb(229, 229, 149);
+  border-radius: 20%;
+  box-shadow: 0 5px #999;
 }
 
-.hover-svart :hover {
+.beige {
+  width: 42%;
+  height: 70px;
+  background-color: rgb(238, 238, 204);
+  border-radius: 20%;
+  box-shadow: 0 5px #999;
+}
+
+.lila {
+  width: 42%;
+  height: 70px;
+  background-color: rgb(188, 86, 228);
+  border-radius: 20%;
+  box-shadow: 0 5px #999;
+}
+
+.orange {
+  width: 42%;
+  height: 70px;
+  background-color: rgb(228, 132, 6);
+  border-radius: 20%;
+  box-shadow: 0 5px #999;
+}
+
+.turkos {
+  width: 42%;
+  height: 70px;
+  background-color: rgb(59, 202, 178);
   color: white;
-  background-color: black;
-}
-.hover-gra :hover {
-  color: rgb(255, 255, 255);
-  background-color: rgb(109, 104, 104);
-}
-.hover-rod :hover {
-  color: rgb(12, 8, 8);
-  background-color: rgb(245, 21, 21);
-}
-.hover-rosa :hover {
-  color: rgb(12, 10, 10);
-  background-color: rgb(226, 104, 196);
-}
-.hover-gron :hover {
-  color: rgb(5, 4, 4);
-  background-color: rgb(126, 226, 131);
-}
-.hover-bla :hover {
-  color: rgb(14, 11, 11);
-  background-color: rgb(124, 152, 212);
-}
-button hover-gul {
-  color: rgb(7, 5, 5);
-  background-color: rgb(228, 240, 124);
+  border-radius: 20%;
+  box-shadow: 0 5px #999;
 }
 
 .flex-container3 {
@@ -271,66 +318,68 @@ button hover-gul {
   width: 48%;
   margin: 1%;
   float: left;
-  padding: 1%;
+  padding: 3%;
 }
 
 .button3 {
   background-color: rgb(245, 200, 235);
-  width: 30%;
-  height: 60px;
+  width: 35%;
+  height: 65px;
+  text-decoration: none;
+  box-shadow: 0 5px rgb(138, 109, 139);
 }
 
-.text-box5 {
-  padding: 1%;
-  width: 100%;
-  height: auto;
-  overflow: hidden;
+.flex-container4 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  font-size: 50px;
   text-align: center;
-  font-size: 30px;
 }
 
-footer {
-  background-color: aliceblue;
+.flex-item4 {
+  height: 20px;
+  padding: 3%;
+  float: left;
+  margin-left: 20px;
   width: 100%;
-  height: 450px;
+}
+
+#tryck {
+  height: 80px;
+}
+
+.submit {
+  height: 50px;
 }
 
 .flex-container5 {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   font-size: 30px;
   text-align: center;
 }
 
-.omoss {
-  font-size: 40px;
-  text-align: center;
+.flex-item5 {
+  width: 48%;
 }
 
-.map {
-  height: 45px;
-  width: 30%;
-  float: left;
-  padding: 1%;
-}
-
-.info {
-  width: 37%;
-  margin-top: 5%;
+iframe {
+  width: 450px;
+  height: 400px;
 }
 
 ul {
   list-style-type: none;
+  width: 100%;
 }
 
-dd {
-  font-size: 20px;
-}
-
-form {
-  width: 25%;
-  height: 35px;
-  margin-left: 2%;
+.formulär {
+  width: 45%;
+  margin-left: 28%;
+  text-align: center;
+  margin-top: 50px;
 }
 
 legend {
@@ -339,6 +388,94 @@ legend {
 
 label {
   font-size: 20px;
+}
+
+input {
+  width: 70%;
+  height: 30px;
+}
+
+.varukorg {
+  width: 80%;
+  height: 250px;
+  border-radius: 20px;
+  background-color: thistle;
+  margin-left: 10%;
+}
+
+table {
+  width: 40%;
+  height: 100%;
+  margin-left: 30%;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+th {
+  font-size: 30px;
+}
+
+td {
+  font-size: 25px;
+}
+
+tfoot {
+  font-family: "Koulen", cursive;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(247, 231, 241);
+}
+
+tr:nth-child(even) {
+  background-color: rgb(245, 200, 235);
+}
+
+.fortsätt {
+  text-align: center;
+  margin: 5%;
+}
+
+.button4 {
+  font-size: 15px;
+  background-color: rgb(245, 200, 235);
+  width: 30%;
+  height: 65px;
+  text-decoration: none;
+}
+
+.button5 {
+  font-size: 15px;
+  background-color: rgb(245, 200, 235);
+  width: 30%;
+  height: 65px;
+  text-decoration: none;
+  margin-top: 800px;
+}
+
+footer {
+  width: 100%;
+  background-color: thistle;
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 40px;
+}
+
+.text-info {
+  font-size: 20px;
+  width: 30%;
+}
+
+.company {
+  float: right;
+  font-size: 15px;
 }
 
 @media screen and (max-width: 600px) {
@@ -379,12 +516,94 @@ label {
 
 @media (max-width: 800px) {
   .flex-container2 {
-    flex-direction: column;
+    flex-direction: wrap;
+  }
+  .flex-item2 {
+    width: 48%;
+    padding: 3%;
+    height: 75px;
+    margin: 1%;
   }
 }
 
 @media (max-width: 800px) {
   .flex-container3 {
     flex-direction: column;
+  }
+
+  .flex-item3 {
+    width: 100%;
+    padding: 3%;
+    height: 70px;
+  }
+}
+
+@media (max-width: 800px) {
+  .flex-container4 {
+    flex-direction: column;
+  }
+
+  .flex-item4 {
+    width: 80%;
+    margin-bottom: 3%;
+  }
+}
+
+@media (max-width: 800px) {
+  .flex-container5 {
+    flex-direction: column;
+  }
+
+  .flex-item5 {
+    width: 100%;
+  }
+
+  iframe {
+    width: 300px;
+    height: 300px;
+  }
+
+  .info {
+    width: 100%;
+    margin-top: 100px;
+    margin-right: 10%;
+  }
+}
+
+@media (max-width: 800px) {
+  .formulär {
+    margin-left: 8%;
+    width: 85%;
+  }
+}
+
+@media (max-width: 800px) {
+  ol {
+    margin-left: 30%;
+  }
+}
+
+@media (max-width: 800px) {
+  .varukorg {
+    height: 280px;
+    width: 100%;
+    margin: 0;
+  }
+
+  table {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .logo {
+    margin-left: 25%;
+  }
+}
+
+@media (max-width: 800px) {
+  .text-info {
+    width: 100%;
   }
 }
